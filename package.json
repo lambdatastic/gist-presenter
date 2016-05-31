@@ -1,0 +1,30 @@
+{
+  "name": "gist-presenter",
+  "version": "1.0.0",
+  "description": "An app that takes a Remark formatted Gist and loads it as a presentation",
+  "main": "index.js",
+  "dependencies": {
+    "mithril": "^0.2.5",
+    "ramda": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "eslint": "^2.11.1",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambdatastic/gist-presenter.git"
+  },
+  "author": "Cassandra Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambdatastic/gist-presenter/issues"
+  },
+  "homepage": "https://github.com/lambdatastic/gist-presenter#readme"
+}
